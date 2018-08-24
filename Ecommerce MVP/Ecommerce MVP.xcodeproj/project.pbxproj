@@ -10,6 +10,11 @@
 		0DF33567F57DDF24920DBABF /* Pods_Ecommerce_MVP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0A07C1E1DB0ABF35EF8C50B /* Pods_Ecommerce_MVP.framework */; };
 		4EFFFCE35620341D58CE396A /* Pods_Ecommerce_MVPTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 062EC8B6D457744F02EB268B /* Pods_Ecommerce_MVPTests.framework */; };
 		86E5C4BAD3F5FC28C3FE1D20 /* Pods_Ecommerce_MVPUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20ECFE65C0BA23C51630FE7C /* Pods_Ecommerce_MVPUITests.framework */; };
+		F3DEEE8A212FEAB000D791C2 /* AppManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DEEE89212FEAB000D791C2 /* AppManager.swift */; };
+		F3DEEE8C212FEABB00D791C2 /* APIHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DEEE8B212FEABB00D791C2 /* APIHandler.swift */; };
+		F3DEEE8E212FEAD400D791C2 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DEEE8D212FEAD400D791C2 /* Constants.swift */; };
+		F3DEEE90212FEAE000D791C2 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DEEE8F212FEAE000D791C2 /* Extensions.swift */; };
+		F3DEEE92212FEB3000D791C2 /* TouchBlocker.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DEEE91212FEB3000D791C2 /* TouchBlocker.swift */; };
 		F3EF6578211EC03C005B3B4F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3EF6577211EC03C005B3B4F /* AppDelegate.swift */; };
 		F3EF657A211EC03C005B3B4F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3EF6579211EC03C005B3B4F /* ViewController.swift */; };
 		F3EF657D211EC03C005B3B4F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3EF657B211EC03C005B3B4F /* Main.storyboard */; };
@@ -47,6 +52,11 @@
 		D0A07C1E1DB0ABF35EF8C50B /* Pods_Ecommerce_MVP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ecommerce_MVP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA90A59739953661F17869C7 /* Pods-Ecommerce MVP.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ecommerce MVP.release.xcconfig"; path = "Pods/Target Support Files/Pods-Ecommerce MVP/Pods-Ecommerce MVP.release.xcconfig"; sourceTree = "<group>"; };
 		E1704DA92F52BE225680F2C0 /* Pods-Ecommerce MVP.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ecommerce MVP.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Ecommerce MVP/Pods-Ecommerce MVP.debug.xcconfig"; sourceTree = "<group>"; };
+		F3DEEE89212FEAB000D791C2 /* AppManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppManager.swift; sourceTree = "<group>"; };
+		F3DEEE8B212FEABB00D791C2 /* APIHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIHandler.swift; sourceTree = "<group>"; };
+		F3DEEE8D212FEAD400D791C2 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		F3DEEE8F212FEAE000D791C2 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		F3DEEE91212FEB3000D791C2 /* TouchBlocker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchBlocker.swift; sourceTree = "<group>"; };
 		F3EF6574211EC03C005B3B4F /* Ecommerce MVP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ecommerce MVP.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3EF6577211EC03C005B3B4F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F3EF6579211EC03C005B3B4F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -114,6 +124,18 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		F3DEEE88212FEA9300D791C2 /* Miscellaneous classes */ = {
+			isa = PBXGroup;
+			children = (
+				F3DEEE89212FEAB000D791C2 /* AppManager.swift */,
+				F3DEEE8B212FEABB00D791C2 /* APIHandler.swift */,
+				F3DEEE8D212FEAD400D791C2 /* Constants.swift */,
+				F3DEEE8F212FEAE000D791C2 /* Extensions.swift */,
+				F3DEEE91212FEB3000D791C2 /* TouchBlocker.swift */,
+			);
+			path = "Miscellaneous classes";
+			sourceTree = "<group>";
+		};
 		F3EF656B211EC03B005B3B4F = {
 			isa = PBXGroup;
 			children = (
@@ -139,6 +161,7 @@
 		F3EF6576211EC03C005B3B4F /* Ecommerce MVP */ = {
 			isa = PBXGroup;
 			children = (
+				F3DEEE88212FEA9300D791C2 /* Miscellaneous classes */,
 				F3EF6577211EC03C005B3B4F /* AppDelegate.swift */,
 				F3EF6579211EC03C005B3B4F /* ViewController.swift */,
 				F3EF657B211EC03C005B3B4F /* Main.storyboard */,
@@ -384,7 +407,12 @@
 			files = (
 				F3EF657A211EC03C005B3B4F /* ViewController.swift in Sources */,
 				F3EF6578211EC03C005B3B4F /* AppDelegate.swift in Sources */,
+				F3DEEE92212FEB3000D791C2 /* TouchBlocker.swift in Sources */,
+				F3DEEE8C212FEABB00D791C2 /* APIHandler.swift in Sources */,
 				F3EF6580211EC03C005B3B4F /* Ecommerce_MVP.xcdatamodeld in Sources */,
+				F3DEEE8A212FEAB000D791C2 /* AppManager.swift in Sources */,
+				F3DEEE8E212FEAD400D791C2 /* Constants.swift in Sources */,
+				F3DEEE90212FEAE000D791C2 /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
