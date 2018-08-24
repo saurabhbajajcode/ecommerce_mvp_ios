@@ -15,6 +15,7 @@
 		F3DEEE8E212FEAD400D791C2 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DEEE8D212FEAD400D791C2 /* Constants.swift */; };
 		F3DEEE90212FEAE000D791C2 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DEEE8F212FEAE000D791C2 /* Extensions.swift */; };
 		F3DEEE92212FEB3000D791C2 /* TouchBlocker.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DEEE91212FEB3000D791C2 /* TouchBlocker.swift */; };
+		F3DEEE9421301D6700D791C2 /* Products.json in Resources */ = {isa = PBXBuildFile; fileRef = F3DEEE9321301D6700D791C2 /* Products.json */; };
 		F3EF6578211EC03C005B3B4F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3EF6577211EC03C005B3B4F /* AppDelegate.swift */; };
 		F3EF657A211EC03C005B3B4F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3EF6579211EC03C005B3B4F /* ViewController.swift */; };
 		F3EF657D211EC03C005B3B4F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3EF657B211EC03C005B3B4F /* Main.storyboard */; };
@@ -57,6 +58,7 @@
 		F3DEEE8D212FEAD400D791C2 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		F3DEEE8F212FEAE000D791C2 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		F3DEEE91212FEB3000D791C2 /* TouchBlocker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchBlocker.swift; sourceTree = "<group>"; };
+		F3DEEE9321301D6700D791C2 /* Products.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Products.json; sourceTree = "<group>"; };
 		F3EF6574211EC03C005B3B4F /* Ecommerce MVP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ecommerce MVP.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3EF6577211EC03C005B3B4F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F3EF6579211EC03C005B3B4F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -161,6 +163,7 @@
 		F3EF6576211EC03C005B3B4F /* Ecommerce MVP */ = {
 			isa = PBXGroup;
 			children = (
+				F3DEEE9321301D6700D791C2 /* Products.json */,
 				F3DEEE88212FEA9300D791C2 /* Miscellaneous classes */,
 				F3EF6577211EC03C005B3B4F /* AppDelegate.swift */,
 				F3EF6579211EC03C005B3B4F /* ViewController.swift */,
@@ -300,6 +303,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F3EF6585211EC041005B3B4F /* LaunchScreen.storyboard in Resources */,
+				F3DEEE9421301D6700D791C2 /* Products.json in Resources */,
 				F3EF6582211EC041005B3B4F /* Assets.xcassets in Resources */,
 				F3EF657D211EC03C005B3B4F /* Main.storyboard in Resources */,
 			);
